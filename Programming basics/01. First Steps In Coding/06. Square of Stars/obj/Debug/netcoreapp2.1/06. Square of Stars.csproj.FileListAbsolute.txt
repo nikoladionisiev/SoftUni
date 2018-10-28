@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\bin\Debug\netcoreapp2.1\06. Square of Stars.deps.json
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\bin\Debug\netcoreapp2.1\06. Square of Stars.runtimeconfig.json
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\bin\Debug\netcoreapp2.1\06. Square of Stars.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\bin\Debug\netcoreapp2.1\06. Square of Stars.dll
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\bin\Debug\netcoreapp2.1\06. Square of Stars.pdb
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.dll
+D:\Dev\C#\Programming basics\Programming Basics\06. Square of Stars\obj\Debug\netcoreapp2.1\06. Square of Stars.pdb

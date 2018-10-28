@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\bin\Debug\netcoreapp2.1\07.Christmas Tree.deps.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\bin\Debug\netcoreapp2.1\07.Christmas Tree.runtimeconfig.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\bin\Debug\netcoreapp2.1\07.Christmas Tree.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\bin\Debug\netcoreapp2.1\07.Christmas Tree.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\bin\Debug\netcoreapp2.1\07.Christmas Tree.pdb
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\07.Christmas Tree\obj\Debug\netcoreapp2.1\07.Christmas Tree.pdb

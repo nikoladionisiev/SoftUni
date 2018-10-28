@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\bin\Debug\netcoreapp2.1\03. Nums_1_to_20.deps.json
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\bin\Debug\netcoreapp2.1\03. Nums_1_to_20.runtimeconfig.json
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\bin\Debug\netcoreapp2.1\03. Nums_1_to_20.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\bin\Debug\netcoreapp2.1\03. Nums_1_to_20.dll
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\bin\Debug\netcoreapp2.1\03. Nums_1_to_20.pdb
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.dll
+D:\Dev\C#\Programming basics\Programming Basics\03. Nums_1_to_20\obj\Debug\netcoreapp2.1\03. Nums_1_to_20.pdb

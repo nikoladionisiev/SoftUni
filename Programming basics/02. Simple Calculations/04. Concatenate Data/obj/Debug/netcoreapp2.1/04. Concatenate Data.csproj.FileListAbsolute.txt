@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\bin\Debug\netcoreapp2.1\04. Concatenate Data.deps.json
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\bin\Debug\netcoreapp2.1\04. Concatenate Data.runtimeconfig.json
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\bin\Debug\netcoreapp2.1\04. Concatenate Data.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\bin\Debug\netcoreapp2.1\04. Concatenate Data.dll
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\bin\Debug\netcoreapp2.1\04. Concatenate Data.pdb
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.dll
+D:\Dev\C#\Programming basics\Simple Calculations\04. Concatenate Data\obj\Debug\netcoreapp2.1\04. Concatenate Data.pdb

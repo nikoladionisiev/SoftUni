@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\bin\Debug\netcoreapp2.1\04. Triangle of 55 Stars.deps.json
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\bin\Debug\netcoreapp2.1\04. Triangle of 55 Stars.runtimeconfig.json
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\bin\Debug\netcoreapp2.1\04. Triangle of 55 Stars.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\bin\Debug\netcoreapp2.1\04. Triangle of 55 Stars.dll
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\bin\Debug\netcoreapp2.1\04. Triangle of 55 Stars.pdb
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.dll
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.pdb
+D:\Dev\C#\Programming basics\Programming Basics\04. Triangle of 55 Stars\obj\Debug\netcoreapp2.1\04. Triangle of 55 Stars.csprojAssemblyReference.cache

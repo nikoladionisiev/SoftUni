@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\bin\Debug\netcoreapp2.1\10.Diamond.deps.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\bin\Debug\netcoreapp2.1\10.Diamond.runtimeconfig.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\bin\Debug\netcoreapp2.1\10.Diamond.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\bin\Debug\netcoreapp2.1\10.Diamond.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\bin\Debug\netcoreapp2.1\10.Diamond.pdb
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\10.Diamond\obj\Debug\netcoreapp2.1\10.Diamond.pdb

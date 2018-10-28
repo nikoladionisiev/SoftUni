@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\bin\Debug\netcoreapp2.1\03. Greeting by Name.deps.json
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\bin\Debug\netcoreapp2.1\03. Greeting by Name.runtimeconfig.json
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\bin\Debug\netcoreapp2.1\03. Greeting by Name.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\bin\Debug\netcoreapp2.1\03. Greeting by Name.dll
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\bin\Debug\netcoreapp2.1\03. Greeting by Name.pdb
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.dll
+D:\Dev\C#\Programming basics\Simple Calculations\03. Greeting by Name\obj\Debug\netcoreapp2.1\03. Greeting by Name.pdb

@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\bin\Debug\netcoreapp2.1\02. Expression.deps.json
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\bin\Debug\netcoreapp2.1\02. Expression.runtimeconfig.json
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\bin\Debug\netcoreapp2.1\02. Expression.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\bin\Debug\netcoreapp2.1\02. Expression.dll
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\bin\Debug\netcoreapp2.1\02. Expression.pdb
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.dll
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.pdb
+D:\Dev\C#\Programming basics\Programming Basics\02. Expression\obj\Debug\netcoreapp2.1\02. Expression.csprojAssemblyReference.cache

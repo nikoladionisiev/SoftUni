@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\bin\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.deps.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\bin\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.runtimeconfig.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\bin\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\bin\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\bin\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.pdb
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\02.Rectangle of N x N Stars\obj\Debug\netcoreapp2.1\02.Rectangle of N x N Stars.pdb

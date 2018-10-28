@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\bin\Debug\netcoreapp2.1\08.Sunglasses.deps.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\bin\Debug\netcoreapp2.1\08.Sunglasses.runtimeconfig.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\bin\Debug\netcoreapp2.1\08.Sunglasses.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\bin\Debug\netcoreapp2.1\08.Sunglasses.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\bin\Debug\netcoreapp2.1\08.Sunglasses.pdb
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.dll
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\08.Sunglasses\obj\Debug\netcoreapp2.1\08.Sunglasses.pdb

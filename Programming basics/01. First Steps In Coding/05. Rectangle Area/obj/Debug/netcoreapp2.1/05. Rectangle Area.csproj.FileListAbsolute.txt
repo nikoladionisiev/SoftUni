@@ -1,0 +1,11 @@
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\bin\Debug\netcoreapp2.1\05. Rectangle Area.deps.json
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\bin\Debug\netcoreapp2.1\05. Rectangle Area.runtimeconfig.json
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\bin\Debug\netcoreapp2.1\05. Rectangle Area.runtimeconfig.dev.json
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\bin\Debug\netcoreapp2.1\05. Rectangle Area.dll
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\bin\Debug\netcoreapp2.1\05. Rectangle Area.pdb
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.AssemblyInfo.cs
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.dll
+D:\Dev\C#\Programming basics\Programming Basics\05. Rectangle Area\obj\Debug\netcoreapp2.1\05. Rectangle Area.pdb

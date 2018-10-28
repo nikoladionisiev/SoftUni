@@ -1,0 +1,4 @@
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\09.House\obj\Debug\netcoreapp2.1\09.House.csprojAssemblyReference.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\09.House\obj\Debug\netcoreapp2.1\09.House.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\09.House\obj\Debug\netcoreapp2.1\09.House.AssemblyInfoInputs.cache
+D:\Dev\C#\Programming basics\06. Drawing Figures with Loops\09.House\obj\Debug\netcoreapp2.1\09.House.AssemblyInfo.cs
