@@ -8,8 +8,15 @@ namespace _07._Bomb_Numbers
     {
         static void Main(string[] args)
         {
-            List<int> input = Console.ReadLine().Split().Select(int.Parse).ToList();
-            List<int> bomb = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+            //1 2 2 4 2 2 2 9
+            //4 2
+
+            List<int> input = new List<int> { 1, 2, 2, 4, 2, 2, 2, 9 };
+            List<int> bomb = new List<int> { 4, 2 };
+
+            //List<int> input = Console.ReadLine().Split().Select(int.Parse).ToList();
+            //List<int> bomb = Console.ReadLine().Split().Select(int.Parse).ToList();
 
             int range = bomb[1] * 2 + 1;
 

@@ -9,8 +9,7 @@ namespace _10._Сръбско_Unleashed
         static void Main(string[] args)
         {
 
-            double n = (10 / 4.0) % 2;
-
+            double n = (10 / 4) ;
 
             Console.WriteLine(n);
         }
