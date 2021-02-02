@@ -1,0 +1,35 @@
+--CREATE DATABASE [University Database]
+
+--USE [University Database]
+
+
+CREATE TABLE Majors(
+	MajorID INT PRIMARY KEY NOT NULL,
+	[Name] NVARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Students(
+	StudentID INT PRIMARY KEY NOT NULL,
+	StudentNumber INT NOT NULL,
+	StudentName NVARCHAR(50) NOT NULL,
+	MajorID INT FOREIGN KEY REFERENCES Majors(MajorID) NOT NULL
+)
+
+CREATE TABLE Payments(
+	PaymentID INT PRIMARY KEY NOT NULL,
+	PaymentDate DATE NOT NULL,
+	PaymentAmount DECIMAL NOT NULL,
+	StudentID INT FOREIGN KEY REFERENCES Students(StudentID)
+)
+
+CREATE TABLE Subjects(
+	SubjectID INT PRIMARY KEY NOT NULL,
+	SubjectName NVARCHAR NOT NULL
+)
+
+CREATE TABLE Agenda(
+	StudentID INT FOREIGN KEY REFERENCES Students(StudentID),
+	SubjectID INT FOREIGN KEY REFERENCES Subjects(SubjectID),
+	PRIMARY KEY(StudentID,SubjectID)
+)
+
