@@ -135,7 +135,7 @@ namespace P01_HospitalDatabase.Data
                     .Property(x => x.Name)
                     .IsRequired(true)
                     .IsUnicode(true)
-                    .HasMaxLength(50);
+                    .HasMaxLength(100);
             });
         }
 

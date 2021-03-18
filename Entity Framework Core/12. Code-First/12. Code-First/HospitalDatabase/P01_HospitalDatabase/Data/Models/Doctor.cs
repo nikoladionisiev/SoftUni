@@ -11,7 +11,7 @@ namespace P01_HospitalDatabase.Data.Models
             this.Visitations = new HashSet<Visitation>();
         }
 
-        public int DoctorId { get; set; }
+        public int? DoctorId { get; set; }
 
         public string Name { get; set; }
 
