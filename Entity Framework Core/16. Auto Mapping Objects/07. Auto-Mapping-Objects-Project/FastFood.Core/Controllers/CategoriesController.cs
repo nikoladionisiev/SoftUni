@@ -3,6 +3,7 @@
     using System;
     using AutoMapper;
     using Data;
+    using FastFood.Models;
     using Microsoft.AspNetCore.Mvc;
     using ViewModels.Categories;
 
@@ -25,7 +26,16 @@
         [HttpPost]
         public IActionResult Create(CreateCategoryInputModel model)
         {
-            throw new NotImplementedException();
+            if (!ModelState.IsValid)
+            {
+                return this.RedirectToAction("Error", "Home");
+            }
+
+            Category category = this.mapper.Map<Category>(model);
+            this.context.Categories.Add(category);
+            this.context.SaveChanges();
+
+            return this.RedirectToAction("All");
         }
 
         public IActionResult All()
