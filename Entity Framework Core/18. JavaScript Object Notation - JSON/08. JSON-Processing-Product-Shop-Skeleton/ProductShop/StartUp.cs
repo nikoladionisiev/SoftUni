@@ -15,11 +15,11 @@ namespace ProductShop
         {
             ProductShopContext context = new ProductShopContext();
 
-            string inputJson = File.ReadAllText("../../../Datasets/categories-products.json");
+            //string inputJson = File.ReadAllText("../../../Datasets/categories-products.json");
 
-            string result = GetSoldProducts(context);
+            string result = GetUsersWithProducts(context);
 
-            File.WriteAllText("../../../Datasets/users-sold-products.json", result);
+            File.WriteAllText("../../../Datasets/users-and-products.json", result);
 
             Console.WriteLine(result);
 
@@ -100,7 +100,6 @@ namespace ProductShop
         }
 
         //Query 6.Export Successfully Sold Products
-
         public static string GetSoldProducts(ProductShopContext context)
         {
             var usersSolidProducts = context.Users
@@ -124,6 +123,68 @@ namespace ProductShop
             var setting = new JsonSerializerSettings { Formatting = Formatting.Indented };
 
             var json = JsonConvert.SerializeObject(usersSolidProducts, setting);
+
+            return json;
+        }
+
+        //Export Categories by Products Count
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
+            var categories = context.Categories
+                .Select(c => new
+                {
+                    category = c.Name,
+                    productsCount = c.CategoryProducts.Count(),
+                    averagePrice = c.CategoryProducts.Average(cp => cp.Product.Price).ToString("f2"),
+                    totalRevenue = c.CategoryProducts.Sum(t => t.Product.Price).ToString("f2")
+                })
+               .OrderByDescending(x => x.productsCount)
+                .ToList();
+
+            var json = JsonConvert.SerializeObject(categories, Formatting.Indented);
+
+            return json;
+        }
+
+        //Query 7.Export Users and Products
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context.Users
+                .Where(x => x.ProductsSold.Any(p => p.Buyer != null))
+                 .OrderByDescending(x => x.ProductsSold.Count())
+                .Select(x => new
+                {
+                   lastName = x.LastName,
+                   age = x.Age,
+                   soldProducts = new
+                   {
+                       count = x.ProductsSold.Count(),
+                       products = x.ProductsSold
+                       .Where(p => p.Buyer != null)
+                       .Select(p => new
+                       {
+                           name = p.Name,
+                           price = p.Price
+                       }).ToArray()
+                   }
+                  
+                })
+               
+                .ToArray();
+
+            var resultObj = new
+            {
+                usersCount = users.Length,
+                users = users
+            };
+
+            JsonSerializerSettings settings = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore,
+                Formatting = Formatting.Indented
+            };
+
+            string json = JsonConvert.SerializeObject(resultObj, settings);
 
             return json;
         }
