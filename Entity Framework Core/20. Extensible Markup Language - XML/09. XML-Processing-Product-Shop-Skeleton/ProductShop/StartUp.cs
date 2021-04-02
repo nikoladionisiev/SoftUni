@@ -197,18 +197,18 @@ namespace ProductShop
         //08. Users and Products
         public static string GetUsersWithProducts(ProductShopContext context)
         {
-            var users = context.Users
-                 .AsEnumerable()
-                 .Where(u => u.ProductsSold.Any())
-                 .Select(u => new UserDTO
+            var usersAndProducts = context.Users
+                 .ToArray()
+                 .Where(p => p.ProductsSold.Any())
+                 .Select(x => new ExportUserDto
                  {
-                     FirstName = u.FirstName,
-                     LastName = u.LastName,
-                     Age = u.Age,
-                     SoldProduct = new UserSoldProductDTO
+                     FirstName = x.FirstName,
+                     LastName = x.LastName,
+                     Age = x.Age,
+                     SoldProduct = new ExportProductCountDto
                      {
-                         Count = u.ProductsSold.Count,
-                         Products = u.ProductsSold.Select(ps => new ProductDTO
+                         Count = x.ProductsSold.Count,
+                         Products = x.ProductsSold.Select(ps => new ExportProductDTO
                          {
                              Name = ps.Name,
                              Price = ps.Price
@@ -221,14 +221,14 @@ namespace ProductShop
                  .Take(10)
                  .ToArray();
 
-            var result = new ExportUserAndProductsDto
+            var resultDto = new ExportUserAndProductsDto
             {
-                Count = context.Users.Count(u => u.ProductsSold.Any()),
-                Users = users
+                Count = context.Users.Count(x => x.ProductsSold.Any()),
+                Users = usersAndProducts
             };
 
             var root = "Users";
-            var xml = XMLConverter.Serialize(result, root);
+            var xml = XMLConverter.Serialize(resultDto, root);
             return xml;
         }
     }

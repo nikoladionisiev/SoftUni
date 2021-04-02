@@ -5,18 +5,18 @@ using System.Xml.Serialization;
 
 namespace ProductShop.Dtos.Export
 {
-    [XmlType("Users")]
+
     public class ExportUserAndProductsDto
     {
         [XmlElement("count")]
         public int Count { get; set; }
 
         [XmlArray("users")]
-        public UserDTO[] Users { get; set; }
+        public ExportUserDto[] Users { get; set; }
     }
 
     [XmlType("User")]
-    public class UserDTO
+    public class ExportUserDto
     {
         [XmlElement("firstName")]
         public string FirstName { get; set; }
@@ -28,21 +28,21 @@ namespace ProductShop.Dtos.Export
         public int? Age { get; set; }
 
         [XmlElement("SoldProducts")]
-        public UserSoldProductDTO SoldProduct { get; set; }
+        public ExportProductCountDto SoldProduct { get; set; }
     }
 
     [XmlType("SoldProducts")]
-    public class UserSoldProductDTO
+    public class ExportProductCountDto
     {
         [XmlElement("count")]
         public int Count { get; set; }
 
         [XmlArray("products")]
-        public ProductDTO[] Products { get; set; }
+        public ExportProductDTO[] Products { get; set; }
     }
 
     [XmlType("Product")]
-    public class ProductDTO
+    public class ExportProductDTO
     {
         [XmlElement("name")]
         public string Name { get; set; }
