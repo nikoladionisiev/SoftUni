@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-16"?>
+<cars>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>156</model>
+    <travelled-distance>274003107</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>156</model>
+    <travelled-distance>434781563</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>164</model>
+    <travelled-distance>385298945</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>75</model>
+    <travelled-distance>512903265</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>75</model>
+    <travelled-distance>492649694</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>75</model>
+    <travelled-distance>338929990</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>Alfetta</model>
+    <travelled-distance>227419636</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>AR51</model>
+    <travelled-distance>452362116</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>AR51</model>
+    <travelled-distance>273101528</travelled-distance>
+  </car>
+  <car>
+    <make>Alfa Romeo</make>
+    <model>Giulia</model>
+    <travelled-distance>451741545</travelled-distance>
+  </car>
+</cars>
