@@ -109,13 +109,12 @@ function solve(x) {
 //08. Square of Stars
 function solve(x)
 {
-    for (let i = 0; i <= x; i++) {
-       for (let k = i; k <= x; k++) {
-           console.log('*');
-       }
-        console.log('-');
+    let n = Number(x);
+    for (let i = 0; i < n; i++) {
+        console.log("* ".repeat(n));
     }
+    
 }
 
-solve(2);
 //09. Aggregate Elements
+
