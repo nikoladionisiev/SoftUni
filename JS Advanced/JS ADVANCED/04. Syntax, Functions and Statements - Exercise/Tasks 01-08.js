@@ -35,3 +35,55 @@ function solve(number){
 }
 
 //04. Time to Walk
+function solve(steps, footprintInMeters, speed){
+    let length = steps * footprintInMeters;
+    let totalRestInMinutes = Math.floor(length / 500);
+    let totalTime = length / speed / 1000 * 60;
+
+    let totalTimeInSecond = Math.ceil((totalRestInMinutes + totalTime) * 60);
+    
+    let result = new Date(null,null,null,null,null, totalTimeInSecond)
+
+    console.log(result.toTimeString().split(' ')[0])
+}
+
+
+function solve(speed, area) {
+    let limit = 0;
+   switch (area) {
+       case 'motorway':
+           limit = 130;
+           break;
+        case 'interstate':
+            limit = 90;
+            break;
+        case 'city':
+            limit = 50;
+            break;
+        case 'residential':
+            limit = 20; 
+            break;       
+   }
+  
+  
+   if (speed > limit) {
+
+    let difference = speed - limit;
+    let status;
+
+    if(difference <= 20){
+        status = 'speeding';
+    }
+    else if (difference > 20 && difference <= 40) {
+        status = 'excessive speeding';
+    } else {
+        status = 'reckless driving';
+    }
+    console.log(`The speed is ${difference} km/h faster than the allowed speed of ${limit} - ${status}`);
+   }
+   else{
+        console.log(`Driving ${speed} km/h in a ${limit} zone`);
+   }
+}
+
+solve(200, 'motorway');
