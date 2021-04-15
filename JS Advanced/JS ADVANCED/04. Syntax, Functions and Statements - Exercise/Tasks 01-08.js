@@ -47,7 +47,7 @@ function solve(steps, footprintInMeters, speed){
     console.log(result.toTimeString().split(' ')[0])
 }
 
-
+//05. Road Radar
 function solve(speed, area) {
     let limit = 0;
    switch (area) {
@@ -86,4 +86,21 @@ function solve(speed, area) {
    }
 }
 
-solve(200, 'motorway');
+//06. Cooking by Numbers
+function solve(params) {
+    let n = parseInt(params[0])
+
+    let functions = {
+        chop: (x) => x / 2,
+        dice: (x) => Math.sqrt(x),
+        spice: (x) => x + 1,
+        bake: (x) => x * 3,
+        fillet: (x) => (0.8 * x).toFixed(1)
+    }
+
+    for (let i = 1; i < params.length; i++) {
+        n = functions[params[i]](n);
+        console.log(n);
+    }
+}
+
