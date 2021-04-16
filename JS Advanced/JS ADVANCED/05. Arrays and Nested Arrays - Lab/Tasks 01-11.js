@@ -57,4 +57,16 @@ function solve(array) {
     }
 }
 
-solve([30, 15, 50, 5]);
+//05. Smallest Two Numbers
+function solve(array) {
+    let sortedArray = array.sort((a,b) => a - b);
+    let firstSmallestNumber = sortedArray.shift();
+    let secondSmallestNumber = sortedArray.shift();
+ 
+    console.log(`${firstSmallestNumber} ${secondSmallestNumber}`);
+}
+
+//06. Bigger Half
+function solve(array) {
+    
+}
