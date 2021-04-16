@@ -68,5 +68,21 @@ function solve(array) {
 
 //06. Bigger Half
 function solve(array) {
-    
+
+    let numbers = [];
+
+    array.sort((a, b) => a - b);
+
+    let halfArr = Math.floor( array.length / 2);
+
+
+    //console.log(halfArr);
+
+    for (let i = halfArr; i < array.length; i++) {
+        numbers[i] = array[i];     
+    }
+   
+    console.log(numbers);
+
 }
+solve([4, 7, 2, 5])
