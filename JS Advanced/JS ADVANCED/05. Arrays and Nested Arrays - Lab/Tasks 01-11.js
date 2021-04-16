@@ -41,3 +41,20 @@ function solve(arr) {
     console.log(sum);
 }
 
+//04. Negative / Positive Numbers
+function solve(array) {
+    let resultArray = [];
+
+    for(let item of array) {
+        if (item < 0) {
+            resultArray.unshift(item);
+        } else {
+            resultArray.push(item);
+        }
+    }
+    for (let item of resultArray) {
+        console.log(item);
+    }
+}
+
+solve([30, 15, 50, 5]);
