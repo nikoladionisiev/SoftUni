@@ -116,3 +116,38 @@ function solve(array) {
 }
 
 //09. Biggest Element
+function solve(array) {
+    let biggestItem = Number.MIN_SAFE_INTEGER;
+
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array[i].length; j++) {
+           if (array[i][j] >= biggestItem){
+               biggestItem = array[i][j]; 
+           }
+        }        
+    }
+  
+    console.log(biggestItem);
+}
+
+function solve(matrix) {
+
+    let firstDiagonal = 0;
+
+    for (let row = 0; row < matrix.length; row++) {
+        let number = Number(matrix[row][row]);
+        firstDiagonal += number;
+    }
+    
+    let secondDiagonal = 0;
+    let row = 0;
+    for (let col = matrix.length - 1; col >= 0; col--) {
+        let number = Number(matrix[row][col]);
+        secondDiagonal += number;
+        row++;
+    }
+    console.log(`${firstDiagonal} ${secondDiagonal}`);
+}
+
+solve([[20, 40],
+    [10, 60]]);
