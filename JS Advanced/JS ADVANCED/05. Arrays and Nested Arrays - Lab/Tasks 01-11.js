@@ -75,9 +75,6 @@ function solve(array) {
 
     let halfArr = Math.floor( array.length / 2);
 
-
-    //console.log(halfArr);
-
     for (let i = halfArr; i < array.length; i++) {
         numbers[i] = array[i];     
     }
@@ -85,4 +82,37 @@ function solve(array) {
     console.log(numbers);
 
 }
-solve([4, 7, 2, 5])
+
+//07. Piece of Pie
+function solve(array, firstFlavor, secondFlavor){
+    let result = [];
+    for (let i = 0; i < array.length; i++) {
+        if(array[i] == firstFlavor)
+        {
+            for (let j = i; j < array.length; j++) {
+                result.push(array[j])
+               if (array[j] == secondFlavor) {
+                   console.log(result);
+                   return;
+               }
+                
+            }
+           
+        }        
+    }
+}
+
+//08. Process Odd Positions
+function solve(array) {
+    let result = [];
+    for (let i = 0; i < array.length; i++) {
+        if (i % 2 != 0) {
+            result.push(array[i] * 2)
+        }        
+    }
+
+    result.reverse();
+    console.log(result);
+}
+
+//09. Biggest Element
