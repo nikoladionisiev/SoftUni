@@ -104,6 +104,7 @@ function solve(array) {
    });
 }
 
+//08. Sort an Array by 2 Criteria
 function solve(array) {
     array.sort(twoCriteriaSort);
 
@@ -119,8 +120,49 @@ function solve(array) {
     });
 }
 
+//09. Magic Matrices
+function solve(array) {
 
-solve(['test', 
-'Deny', 
-'omen', 
-'Default']);
+    let isTrue = true;
+    let firstSum = array[0].reduce((a, b) => a + b, 0);
+
+    for (let row = 0; row < array.length; row++) {
+        let sum =  array[row].reduce((a, b) => a + b, 0)
+        
+        if (sum === firstSum) {
+            isTrue = true;
+        }
+        else{
+            isTrue = false;
+            break;
+        }
+    }
+
+    let sum = 0; 
+
+    for (let i = 0; i < array.length; i++) {
+
+        for (let j = 0; j < array.length; j++) {
+            
+             sum += array[j][i];
+        }
+
+        if(sum === firstSum)
+        {
+            isTrue = true;
+        }
+        else{
+            isTrue = false;
+            break;
+        }
+        sum = 0;
+    }
+
+    console.log(isTrue);
+  
+}
+//00 + 10 + 20
+//ji + ji + ji
+solve([[1, 0, 0],
+    [0, 0, 1],
+    [0, 1, 0]]);
