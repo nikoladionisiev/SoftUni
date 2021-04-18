@@ -49,8 +49,21 @@ function solve(array, number) {
     console.log(array.join(' '));
 }
 
-solve(['Banana', 
-'Orange', 
-'Coconut', 
-'Apple'], 
-15);
+//05. Extract Increasing Subsequence from Array
+function solve(array) {
+    let numbers = [];
+    let firstElement = array[0];
+    numbers.push(firstElement);
+
+    for (let i = 1; i < array.length; i++) {
+        if(array[i] > array[i - 1] && array[i] > firstElement)
+        {
+            numbers.push(array[i]);
+        }        
+    }
+   
+    numbers.forEach(element => {
+        console.log(element)
+    });
+}
+
