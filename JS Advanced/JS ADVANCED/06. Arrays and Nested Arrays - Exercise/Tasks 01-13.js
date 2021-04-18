@@ -79,3 +79,48 @@ function solve(array) {
 }
 
 //07. Sorting Numbers
+function solve(array) {
+
+    let numbers = [];
+    array.sort(function(a, b) { return a - b;});
+
+    let length = array.length;
+    let counter = 0;
+
+    for (let i = 0; i < length; i++) {
+        if(i % 2 == 0)
+        {
+            numbers.push(array[counter]);
+            counter++;
+        }
+        else{
+            numbers.push(array.pop());
+        }
+    }
+
+
+    numbers.forEach(element => {
+        console.log(element);
+   });
+}
+
+function solve(array) {
+    array.sort(twoCriteriaSort);
+
+    function twoCriteriaSort(cur, next) {
+        if (cur.length === next.length) {
+          return cur.localeCompare(next);
+        }
+        return cur.length - next.length;
+      }
+
+    array.forEach(element => {
+        console.log(element);
+    });
+}
+
+
+solve(['test', 
+'Deny', 
+'omen', 
+'Default']);
