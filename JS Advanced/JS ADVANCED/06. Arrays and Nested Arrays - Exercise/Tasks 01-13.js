@@ -67,3 +67,15 @@ function solve(array) {
     });
 }
 
+//06. List Of Names
+function solve(array) { 
+    let counter = 1;
+    array.sort();
+
+    array.forEach(element => {
+        console.log(`${counter}.${element}`)
+        counter++;
+    });
+}
+
+//07. Sorting Numbers
